@@ -1,10 +1,14 @@
+#include "usage.h"
+
 #include <ncurses.h>
 #include <stdlib.h>
-#include <string.h>
 
 
 int main (int argc, char **argv)
 {
+	if (!(argc > 1))
+		usage(1);
+
 	initscr();
 
 	int i; // for loop

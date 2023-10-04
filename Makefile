@@ -1,3 +1,3 @@
 main:
-	gcc main.c -o main -lncurses
+	gcc main.c usage.c -o main -lncurses
 

@@ -1,3 +1,5 @@
+#include "usage.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,6 +13,7 @@ usage (int status)
 			"where number_of_digits indicates the maximum number of digits the \
 							choice box can contain\n.");
 		exit(status);
+	}
 
 	else
 	{
